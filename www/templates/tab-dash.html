@@ -3,7 +3,11 @@
   <body>
     <ion-view title="Dashboard">
       <ion-content class="padding">
-        <h1>Dash</h1>
+        <h1>Dashboard</h1>
+        <div class="list"><a href="#" ng-show="rootuser" class="item item-avatar"><img ng-src="{{rootuser.avatar}}">
+            <h3>{{rootuser.username}}</h3>
+            <p>Notes: {{count}}</p></a></div>
+        <button ng-click="logout()" class="button button-full button-assertive">Logout</button>
       </ion-content>
     </ion-view>
   </body>

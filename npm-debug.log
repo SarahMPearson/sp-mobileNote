@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/node/bin/node',
+1 verbose cli   '/usr/local/node/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'local-tunnel' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'local-tunnel', null ]
+5 verbose cache add name=undefined spec="local-tunnel" args=["local-tunnel",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'local-tunnel',
+6 verbose parsed url   path: 'local-tunnel',
+6 verbose parsed url   href: 'local-tunnel' }
+7 silly lockFile 1a0c8e2a-local-tunnel local-tunnel
+8 verbose lock local-tunnel /Users/betteyouwill/.npm/1a0c8e2a-local-tunnel.lock
+9 silly lockFile 1a0c8e2a-local-tunnel local-tunnel
+10 silly lockFile 1a0c8e2a-local-tunnel local-tunnel
+11 verbose addNamed [ 'local-tunnel', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 1493adcd-local-tunnel local-tunnel@
+14 verbose lock local-tunnel@ /Users/betteyouwill/.npm/1493adcd-local-tunnel.lock
+15 silly addNameRange { name: 'local-tunnel', range: '*', hasData: false }
+16 verbose request where is /local-tunnel
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id a1951c7457546fd7
+19 verbose url raw /local-tunnel
+20 verbose url resolving [ 'https://registry.npmjs.org/', './local-tunnel' ]
+21 verbose url resolved https://registry.npmjs.org/local-tunnel
+22 verbose request where is https://registry.npmjs.org/local-tunnel
+23 info trying registry request attempt 1 at 16:17:18
+24 http GET https://registry.npmjs.org/local-tunnel
+25 http 404 https://registry.npmjs.org/local-tunnel
+26 verbose headers { date: 'Tue, 09 Dec 2014 22:17:19 GMT',
+26 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '52',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   'x-served-by': 'cache-jfk1035-JFK',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1418163439.561518,VS0,VE78',
+26 verbose headers   'keep-alive': 'timeout=10, max=50',
+26 verbose headers   connection: 'Keep-Alive' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Tue, 09 Dec 2014 22:17:19 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1418163439.561518,VS0,VE78',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile 1493adcd-local-tunnel local-tunnel@
+29 silly lockFile 1493adcd-local-tunnel local-tunnel@
+30 error 404 404 Not Found: local-tunnel
+30 error 404
+30 error 404 'local-tunnel' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Darwin 13.4.0
+32 error command "/usr/local/node/bin/node" "/usr/local/node/bin/npm" "install" "-g" "local-tunnel"
+33 error cwd /Users/betteyouwill/Code/sp-mobileNote
+34 error node -v v0.10.32
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]
